@@ -1,9 +1,11 @@
 import styled from "styled-components";
+import { Toolbar } from "../components/toolbar";
 import styles from "../styles/Home.module.css";
 
 export const cheese = () => {
   return (
     <div className="page-container">
+      <Toolbar></Toolbar>
       <Heading>Cheese of the World </Heading>
       <div>
         <h3>Brie</h3>

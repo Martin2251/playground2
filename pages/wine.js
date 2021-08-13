@@ -1,11 +1,16 @@
 import { Container } from "react-bootstrap";
 import styled from "styled-components";
+import { Toolbar } from "../components/toolbar";
+import Link from "next/link";
 
 export const wine = () => {
   return (
     <div>
+      <Toolbar></Toolbar>
       <Heading>Wine of the World</Heading>
-      <Button>Click here</Button>
+      <Link href="https://www.laithwaites.co.uk/">
+        <Button>click here</Button>
+      </Link>
     </div>
   );
 };
