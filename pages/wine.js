@@ -1,6 +1,4 @@
-import styles from "../styles/Home.module.css";
-
-export const cheese = () => {
+export const wine = () => {
   return (
     <div className="page-container">
       <div>
@@ -19,4 +17,4 @@ export const cheese = () => {
   );
 };
 
-export default cheese;
+export default wine;
