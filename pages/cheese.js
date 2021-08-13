@@ -8,10 +8,10 @@ export const cheese = () => {
       <Toolbar></Toolbar>
       <Heading>Cheese of the World </Heading>
       <div>
-        <h3>Brie</h3>
+        <Yellow>Brie</Yellow>
       </div>
       <div>
-        <h3>Cheddar</h3>
+        <Orange>Cheddar</Orange>
       </div>
       <div>
         <Red>Red Lecister</Red>
@@ -26,6 +26,16 @@ const Heading = styled.h1`
   font-size: 5em;
   text-align: center;
   color: red;
+`;
+const Yellow = styled.h3`
+  font-size: 2em;
+  text-align: center;
+  color: yellow;
+`;
+const Orange = styled.h3`
+  font-size: 2em;
+  text-align: center;
+  color: orange;
 `;
 const Red = styled.h3`
   font-size: 2em;
