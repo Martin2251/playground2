@@ -1,12 +1,10 @@
-import styles from "../styles/Home.module.css";
 import styled from "styled-components";
+import styles from "../styles/Home.module.css";
 
 export const cheese = () => {
   return (
     <div className="page-container">
-      <div>
-        <Title>Cheese of the World </Title>
-      </div>
+      <Heading>Cheese of the World </Heading>
       <div>
         <h3>Brie</h3>
       </div>
@@ -14,7 +12,7 @@ export const cheese = () => {
         <h3>Cheddar</h3>
       </div>
       <div>
-        <h3>Red Lecister</h3>
+        <Red>Red Lecister</Red>
       </div>
     </div>
   );
@@ -22,8 +20,13 @@ export const cheese = () => {
 
 export default cheese;
 
-const Title = styled.h1`
-  font-size: 1.5em;
+const Heading = styled.h1`
+  font-size: 5em;
   text-align: center;
-  color: palevioletred;
+  color: red;
+`;
+const Red = styled.h3`
+  font-size: 2em;
+  text-align: center;
+  color: red;
 `;
